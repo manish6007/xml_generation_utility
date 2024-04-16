@@ -1,0 +1,23 @@
+{
+    "root": "People",
+    "records": 50,
+    "fields": {
+      "Person": {
+        "attributes": {
+          "id": "int"
+        },
+        "nested": {
+          "Name": "string",
+          "Address": {
+            "repeat": 2,  
+            "nested": {
+              "City": "string",
+              "State": "string",
+              "Country": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "root": "Catalog",
+    "records": 3,
+    "fields": {
+      "Book": {
+        "attributes": {
+          "id": "int"
+        },
+        "nested": {
+          "Title": "string",
+          "Author": {
+            "FirstName": "string",
+            "LastName": "string"
+          },
+          "Price": "float"
+        }
+      }
+    }
+  }
+  
